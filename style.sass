@@ -1,0 +1,53 @@
+box-sizing: border-box
+
+.form
+    width: 400px
+    margin: auto auto
+    background-color: #727a82
+    border-radius: 8px
+    padding: 20px 20px 25px 20px
+    color: white
+
+    &__border
+        border-radius: 8px
+        padding: 20px 15px 10px
+        border: solid 2px white
+
+    &__input
+        width: 100%
+        padding: 10px
+        margin: 5px 0px 20px
+        border-radius: 5px
+        border: none
+        outline: none
+
+        &:focus
+            border: 2px solid red
+            background-color: red
+
+        &::placeholder
+            font-size: 16px
+
+    legend
+        color: white
+
+    &__button
+        color: white
+        background-color: black
+        padding: 10px 20px
+        border: none
+
+.custom
+    position: absolute
+    top: 40px
+    left: 500px
+    width: 100px
+    height: 100px
+    background-color: red
+    padding-top: 40px
+
+.custom_close
+    position: absolute
+    top: 45px
+    left: 590px
+    cursor: pointer
